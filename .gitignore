@@ -151,7 +151,15 @@ cython_debug
 # PyCharm
 .idea/
 
-#  presentación files - keep them but ignore any auto-generated ones
+# GENERATOR SCRIPTS - Excluded from version control as they are tools to generate content
+# Keep the generated presentations but not the generation scripts
+generate_all.py
+generate_p11_to_p50.py
+generate_p27_to_p34.py
+generate_p35_to_p42.py
+generate_p43_to_p50.py
+
+#  présentation files - keep them but ignore any auto-generated ones
 # presentations/*.pptx - we WANT to track these
 # But ignore any temporary pptx files if they appear
 
